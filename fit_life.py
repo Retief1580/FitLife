@@ -1,10 +1,15 @@
 # Проект FitLife - MVP версия 1.1
+import sys
+import io
+
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+
 WATER_NORM_PER_KG = 30
 MIL_TO_LITR = 1000
 
 # 1. Знакомство
 print('Доброго дня пользователь, давайте знакомиться!')
-user_name = input('Как вас зовут? ')
+user_name = input('Как вас зовут?: ')
 # TODO: Спроси у пользователя имя и сохрани в переменную user_name
 # print(user_name) # закомменть/удали потом строку
 
