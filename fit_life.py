@@ -1,4 +1,4 @@
-# Проект FitLife - MVP версия 1.1
+# Проект FitLife - MVP версия 1.2
 
 WATER_NORM_PER_KG = 30
 MIL_TO_LITR = 1000
