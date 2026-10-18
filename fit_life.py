@@ -53,7 +53,8 @@ water_needed = (user_weight * WATER_NORM_PER_KG) / MIL_TO_LITR
 # TODO: Рассчитай water_needed
 
 # 4. Вывод красивого результата
-print(f'Привет, {user_name}!')
+print(
+    f'Привет, {user_name}!',
+    f'Ваш индекс массы тела {round(bmi, 1)}, норма воды {water_needed:.1f} л.',
+    'Расчет окончен.', 'Будьте здоровы!', sep="\n")
 # TODO: Выведи возраст, ИМТ (округленный до 1 знака) и норму воды.
-print(f'Ваш индекс массы тела {round(bmi, 1)}, норма воды {water_needed} л.')
-print('Расчет окончен. Будьте здоровы!')
